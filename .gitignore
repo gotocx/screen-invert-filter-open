@@ -1,0 +1,39 @@
+# Build outputs
+build/
+out/
+bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake.user
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj.user
+
+# MSBuild/Clang
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+ipch/
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.lastbuildstate
+*.pch
+
+# Windows
+Thumbs.db
+Desktop.ini
