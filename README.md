@@ -36,9 +36,9 @@ copy .\\README.md .\\dist\\
 Compress-Archive -Path .\\dist\\* -DestinationPath ScreenInvertFilter.zip -Force
 ```
 
-## 下载可执行文件（CI 构建产物）
-本仓库包含 GitHub Actions 工作流，会自动在 Windows 上构建 Release 并上传 `ScreenInvertFilter.exe` 作为构建产物（Artifacts）。
-- 进入仓库的 Actions 页面，找到最新一次构建，下载 `ScreenInvertFilter` Artifact。
+## 下载可执行文件
+- 仓库直链：CI 成功后将自动把 `dist/ScreenInvertFilter.exe` 提交到仓库主分支，可直接在仓库中下载该文件
+- Actions 构建产物：进入仓库的 Actions 页面，找到最新一次构建，下载 `ScreenInvertFilter` Artifact
 
 ## 使用
 1. 运行 `ScreenInvertFilter.exe`，会出现一个小的控制窗口
